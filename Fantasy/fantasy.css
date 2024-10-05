@@ -1,0 +1,121 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box ;
+}
+body{
+    background: linear-gradient(rgb(8, 209, 209) , rgb(116, 1, 116) ) no-repeat;
+    height: 100%;
+}
+
+.bar{
+    background: transparent;
+    border: 2px solid rgba(253, 2, 2, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border-radius: 20px;
+    padding: 5px 0 5px 5px;
+    color: #fff;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bar img{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 50px 0 0 0 ;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.attackers{
+    width: 95%;
+    text-align: center;
+}
+.Midfielders{
+    width: 95%;
+    text-align: center;
+}
+.defenders{
+    width: 95%;
+    text-align: center;
+}
+.goalkeepers{
+    width: 95%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    display: inline-block;
+    background-color:  rgba(255, 0, 64, 0.9);
+    width: 200px;
+    border-radius: 8px;
+}
+table{
+    border: 3px solid  rgba(255, 0, 64, 0.9); 
+    width: 100%;
+    border-width: 3px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    word-spacing: 10px;
+    border-width: 3px;
+    margin: 20px 0 20px 0;
+}
+th{
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+td{
+    background:  rgb(0, 209, 70);
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+table img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 0 0;
+}
+a::selection{
+    background: rgb(253, 2, 85);
+}
+
+h2::selection{
+    background: rgb(253, 2, 85);
+}
+
+img::selection{
+    background: rgb(253, 2, 85);
+}
+h3::selection{
+    background: rgb(253, 2, 85);
+}
+
+th::selection{
+    background: rgb(253, 2, 85);
+}
+
+td::selection{
+    background: rgb(253, 2, 85);
+}
