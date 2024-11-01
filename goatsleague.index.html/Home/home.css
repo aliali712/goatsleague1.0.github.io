@@ -1,0 +1,120 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box ;
+}
+body{
+    background: linear-gradient(rgb(8, 209, 209) , rgb(116, 1, 116) ) no-repeat;
+    height: 110%;
+}
+
+.bar{
+    background: transparent;
+    border: 2px solid rgba(253, 2, 2, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border-radius: 20px;
+    padding: 5px 0 5px 5px;
+    color: #fff;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bar img{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 50px 0 0 0 ;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+span {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px ;
+    background:linear-gradient(rgb(2, 241, 2) , aqua) ;
+    border: 5px solid rgb(255, 255, 255);   
+    margin: 50px;
+    text-align: center;
+    justify-items: center;
+}
+span p {
+    background-color:  rgba(255, 0, 64, 0.9);
+    font-size: 20px;
+}
+span img{
+    width: 250px;
+    height:320px;
+    margin: 0 0 300px 0 ;
+}
+
+table{
+    border: 3px solid  rgba(255, 0, 64, 0.9); 
+    width: 90%;
+    border-width: 3px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    word-spacing: 10px;
+    border-width: 3px;
+    margin: 0 0 20px 0;
+}
+th{
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+td{
+    background:  rgb(0, 209, 70);
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+table td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+a::selection{
+    background: rgb(253, 2, 85);
+}
+
+h2::selection{
+    background: rgb(253, 2, 85);
+}
+
+img::selection{
+    background: rgb(253, 2, 85);
+}
+h3::selection{
+    background: rgb(253, 2, 85);
+}
+
+th::selection{
+    background: rgb(253, 2, 85);
+}
+
+td::selection{
+    background: rgb(253, 2, 85);
+}
