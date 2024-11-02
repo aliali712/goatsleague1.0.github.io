@@ -81,3 +81,9 @@ h3::selection{
 img::selection{
     background: rgb(253, 2, 85);
 }
+
+@media screen and (min-width : 600px ){
+    body{
+        height: 100vh;
+    }
+}

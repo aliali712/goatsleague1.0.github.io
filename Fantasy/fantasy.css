@@ -4,7 +4,7 @@
 }
 body{
     background: linear-gradient(rgb(8, 209, 209) , rgb(116, 1, 116) ) no-repeat;
-    height: 100%;
+    height: 120vh;
 }
 
 .bar{
@@ -127,3 +127,10 @@ th::selection{
 td::selection{
     background: rgb(253, 2, 85);
 }
+
+
+
+
+
+
+
